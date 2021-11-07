@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.first{
+   background: #000;
+    border: 1px solid black;
+    padding: 0px auto;
+   margin: 0 auto;
+}
+.first a{
+    text-decoration: none;
+}
+.b{
+    color:black;
+    font: 500;
+    text-indent: 200px;
+    float:left;
+}
+.b a{
+    color: grey;
+    font-size: 20px;
+} /*链接要单独再列一个类*/.b a:hover{ color: blanchedalmond;}
+.c{
+    text-indent: -250px;
+    float: right;
+    margin-bottom: auto;
+} .c a{ color: wheat;  font-size: 15px; } .c a:hover{ color: blanchedalmond; font-size: 20px;}
+/*鼠标触碰的情况要单独再列一个类*/
+  .jpg{
+margin: 0 auto;
+height: 90px;
+width: 140px;
+float: left;
+margin-left: 50px;
+margin-top: 5px;
+  }
+  .item span{
+      color: white;
+      position: relative;
+      top: -24px;
+      right:-100px;
+  }
+.second{
+    background-color:rgb(92, 15, 15);
+}
+.d{
+    border: rgb(92, 15, 15) solid 1px;
+    background-color:rgb(92, 15, 15);
+    border-top-color: rgb(92, 15, 15);
+    border-bottom: white;
+    width: 800px;
+    height: 100px;
+    margin: 0 auto;
+    margin-left: 250px;
+    }
+.d a{
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+} /*链接要单独再列一个类*/.d a:hover{ color:orange;}
+.study{
+width: 700px;
+height: 100px;
+}
+.item{
+    float: right;
+}
+.item a{
+display: block;
+padding: 12px 60px 2px 5px;
+}
+.search{
+  
+    border:hidden;
+    width: 300px;
+    height: 100px;
+  float: right;
+  margin-top: -75px;
+  margin-right: 105px;
+} 
+.k1{ width: 250px; height: 45px;} 
+.iconfont{ width: 45px; height: 45px;} 
+.three{
+    background: url(image/荷花.jpg);
+    height: 80px;
+}
+.four{
+height: 70px;
+width: 1300px;
+margin: auto;
+margin-top: -15px;
+}
+#white{
+    height: 70px;
+    background-color: black;     
+}
+.black {
+    text-align: center;
+   width: 20%;
+   height: 70px;
+   float: left;
+   list-style: none;
+   }
+.black a{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 60px;   
+}
+#a1:hover{
+    background-color: tomato;
+}
+#a2:hover{
+    background-color: tomato;
+}
+#a3:hover{
+    background-color: tomato;
+}
+#a4:hover{
+    background-color: tomato;
+}
+#a5:hover{
+    background-color: tomato;
+}
+.five{
+    height: 670px;
+    background: url(image/blue.jpg);
+}
+.table{
+    height: 640px;
+    width: 1000px;
+    margin: 0 auto;
+    background: url(image/HKU.jpg);
+   font-size: 33px;
+}
+.table a{text-decoration: none;
+color: white;
+position: relative;
+bottom: -85px;
+}
+.b1:hover{
+    background: url(image/计算机.jpg) ;
+}
+.b2:hover{
+    background: url(image/集成电路.jpg);
+}
+.b3:hover{background: url(image/金融学.jpg);}
+.b4:hover{background: url(image/数学.jpg);}
+.b5:hover{background: url(image/医学.jpg);}
+.b6:hover{background: url(image/物理.jpg);}
+.b7:hover{background: url(image/生命科学.jpg);}
+.b8:hover{background: url(image/材料.jpg);}
+.b9:hover{background: url(image/工商管理.jpg);}
+.six p{
+    font-size: small;
+    color: white;
+    margin: 0 auto;
+    background-color:grey;
+}
