@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<title>华中科技大学官网</title>
+<link rel="stylesheet" href="style.css" >
+<link rel="stylesheet" href="../font_/demo.css">
+<style type="text/css">
+</style>
+</head>
+    <body>
+<div style="clear: both;"></div>
+<div class="first">
+<div class="b">
+<a href="https://www.hust.edu.cn/ksfw/xs.htm">学生中心</a><span>|||</span>
+<a href="https://www.hust.edu.cn/ksfw/jzg.htm">职工服务</a><span>|||</span>
+<a href="https://www.hust.edu.cn/ksfw/xy.htm">校友之家</a><span>|||</span>
+<a href="https://www.hust.edu.cn/ksfw/fk.htm">外校访客</a>
+</div>
+<div class="c"><a href="https://pass.hust.edu.cn/cas/login?service=http%3A%2F%2Fone.hust.edu.cn%2Fdcp%2Findex.jsp">登入</a><span>||</span>
+    <a href="https://pass.hust.edu.cn/cas/newpwd?locale=en">注册</a></div>
+    <div style="clear: both;"></div>
+</div>
+<div class="second">
+   <img  class="jpg" src="image/华科.jpg" alt="华科" >
+<div class="d">
+    
+    <ul class="study" type=none>
+        <li class="item"><a href="https://www.hust.edu.cn/whsh/xysh.htm">校园生活</a><span>|</span></li>
+        <li class="item"><a href="https://www.hust.edu.cn/hzjl/gjhy.htm">国际交流</a><span>|</span></li>
+        <li class="item"><a href="https://zsb.hust.edu.cn/">招生计划</a><span>|</span></li>   
+        <li class="item"><a href="https://www.hust.edu.cn/kxyj/kyjg.htm">学术研究</a><span>|</span></li>
+        <li class="item"><a href="https://www.hust.edu.cn/jyjx/bksjy.htm">教学成果</a><span>|</span></li>
+        <!--<li class="item"><a href="https://www.hust.edu.cn/yxsz.htm">学院介绍</a></li>
+        <li class="item"><a href="https://www.hust.edu.cn/szdw/lyys.htm">教师信息</a></li>-->
+    </ul>
+</div> 
+<form class="search" onsubmit="return search()">
+<input  id="b" class="k1" type="search" name="keyword">
+<button  id="a" class="iconfont" onclick="search()" >&#xe61f;</button>
+</form>
+</div>
+<div class="three">   
+</div>
+<div class="four"><ul id="white">
+    <li class="black" id="a1"><a href="https://www.hust.edu.cn/yxsz.htm">学院简介</a></li>
+    <li class="black" id="a2"><a href="https://www.hust.edu.cn/szdw/lyys.htm">教师信息</a></li>
+    <li class="black" id="a3"><a href="http://hub.hust.edu.cn/">公共服务</a></li>
+    <li class="black" id="a4"><a href="https://www.hust.edu.cn/kxyj/kyjg.htm" >科学研究</a></li>
+    <li class="black" id="a5"><a href="http://job.hust.edu.cn/" >就业信息</a></li>
+</ul></div>
+<div class="five">
+<table border="1" class="table">
+<tr>
+    <td class="b1"><a href="http://www.cs.hust.edu.cn/">计算机</a></td>
+    <td class="b2"><a href="http://ime.hust.edu.cn/">集成电路</a></td>
+<td class="b3"><a href="http://eco.hust.edu.cn/">经济学</a></td></tr>
+<tr>
+    
+    <td class="b4"><a href="http://maths.hust.edu.cn/">数学</a></td>
+  <td class="b5" ><a href="http://www.whuh.com/">医学</a></td> <td class="b6"><a href="http://phys.hust.edu.cn/">物理学</a></td> </tr>
+<tr>
+   <td class="b7"><a href="http://life.hust.edu.cn/">生命科学</a></td> 
+   <td class="b8"><a href="http://mat.hust.edu.cn/">材料学</a></td>
+   <td class="b9"><a href="http://cpa.hust.edu.cn/">工共管理</a></td>
+</tr>
+</table>
+</div>  
+<div class="six">
+    <p>该网站供互联网前端初学者练习编程技能，不作为其他用途，如有需要，请使用其他方式访问学校官网https://www.hust.edu.cn
+    </p>
+</div>
+<script type="text/javascript">
+  function search() {
+            if (document.getElementById("b").value != "") {
+                window.location.href = "https://cn.bing.com/search?q=" + document.getElementById("b").value;
+                document.getElementById("b").value = "";
+            }
+            return false;
+        }
+</script>
+</body>
+</html>
